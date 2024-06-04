@@ -11,11 +11,11 @@
 
 
     // Config
-    "config.section.BalancingScaling.name": "Balancing",
+    "config.section.BalancingScaling.name": "Deluxe Produce Options",
     "config.DeluxeProduceDewott.name": "Dewott Deluxe Produce",
     "config.DeluxeProduceDewott.description": "Allow Oshawott and Dewott to find Prismatic Shards as deluxe produce.\nDefault: true",
     "config.DeluxeProduceFloatzel.name": "Floatzel Deluxe Produce",
     "config.DeluxeProduceFloatzel.description": "Allow Buizel and Floatzel to find Rock Candy as deluxe produce.\nDefault: true",
     "config.DeluxeProduceProbability.name": "Deluxe Produce Probability",
-    "config.DeluxeProduceProbability.description": "The percent probability of producing a deluxe produce item at max friendship and max happiness.\nDefault: 1%"
+    "config.DeluxeProduceProbability.description": "The percent probability of producing a deluxe produce item at max friendship and max happiness.\nAccepted values: 1 - 100. Default: 1%"
 }

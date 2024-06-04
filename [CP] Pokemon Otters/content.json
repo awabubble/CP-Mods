@@ -20,8 +20,19 @@
 
   "DynamicTokens": [
     {
+      "Name": "DeluxeProduceCareValidate",
+      "Value": "1"
+    },
+    {
+      "Name": "DeluxeProduceCareValidate",
+      "Value": "{{DeluxeProduceProbability}}",
+      "When": {
+        "DeluxeProduceProbability": "{{Range: 1, 100}}"
+      }
+    },
+    {
       "Name": "DeluxeProduceCareDivisorChoice",
-      "Value": "{{Round: {{query: 1382.5 / {{DeluxeProduceProbability}} * 100 }}, 0, down }}"
+      "Value": "{{Round: {{query: 1382.5 / {{DeluxeProduceCareValidate}} * 100 }}, 0, down }}"
     }
   ],
 
