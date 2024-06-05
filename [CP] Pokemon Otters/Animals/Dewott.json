@@ -144,6 +144,7 @@
       "TargetField": ["{{ModId}}.Dewott", "DeluxeProduceItemIds"],
       "Entries": {
         "{{ModId}}.PrismaticShard": {
+          "Id": "{{ModId}}.PrismaticShard",
           "Condition": null,
           "MinimumFriendship": 900,
           "ItemId": "074" 
@@ -159,6 +160,7 @@
       "TargetField": ["{{ModId}}.Dewott", "ProduceItemIds"],
       "Entries": {
         "{{ModId}}.Shellder": {
+          "Id": "{{ModId}}.Shellder",
           "Condition": "RANDOM 0.8",
           "MinimumFriendship": 300,
           "ItemId": "otohime.pokemonfish_Shellder" 
@@ -174,6 +176,7 @@
       "TargetField": ["{{ModId}}.Dewott", "ProduceItemIds"],
       "Entries": {
         "{{ModId}}.Clamperl": {
+          "Id": "{{ModId}}.Clamperl",
           "Condition": "RANDOM 0.6",
           "MinimumFriendship": 600,
           "ItemId": "otohime.pokemonfish_Clamperl" 

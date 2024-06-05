@@ -144,6 +144,7 @@
       "TargetField": ["{{ModId}}.Floatzel", "DeluxeProduceItemIds"],
       "Entries": {
         "{{ModId}}.RockCandy": {
+          "Id": "{{ModId}}.RockCandy",
           "Condition": null,
           "MinimumFriendship": 1000,
           "ItemId": "279"
@@ -159,6 +160,7 @@
       "TargetField": ["{{ModId}}.Floatzel", "ProduceItemIds"],
       "Entries": {
         "{{ModId}}.Poliwag": {
+          "Id": "{{ModId}}.Poliwag",
           "Condition": null,
           "MinimumFriendship": 0,
           "ItemId": "otohime.pokemonfish_Poliwag" 
@@ -174,6 +176,7 @@
       "TargetField": ["{{ModId}}.Floatzel", "ProduceItemIds"],
       "Entries": {
         "{{ModId}}.Barboach": {
+          "Id": "{{ModId}}.Barboach",
           "Condition": "RANDOM 0.8",
           "MinimumFriendship": 200,
           "ItemId": "otohime.pokemonfish_Barboach" 
