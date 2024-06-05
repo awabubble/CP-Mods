@@ -11,7 +11,9 @@
 
 
     // Config
-    "config.section.BalancingScaling.name": "Deluxe Produce Options",
+    "config.section.BalancingScaling.name": "Balancing",
+    "config.PokemonOttersRequiredBuilding.name": "Required Building",
+    "config.PokemonOttersRequiredBuilding.description": "The level of barn required to purchase a pokemon otter from Marnie.\nDefault: Big Barn",
     "config.DeluxeProduceDewott.name": "Dewott Deluxe Produce",
     "config.DeluxeProduceDewott.description": "Allow Oshawott and Dewott to find Prismatic Shards as deluxe produce.\nDefault: true",
     "config.DeluxeProduceFloatzel.name": "Floatzel Deluxe Produce",

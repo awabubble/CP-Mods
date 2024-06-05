@@ -20,7 +20,7 @@
           "ShopDisplayName": "Dewott",
           "ShopDescription": "{{i18n: Animal.Dewott.Description}}",
           "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
-          "RequiredBuilding": "Barn",
+          "RequiredBuilding": "{{PokemonOttersRequiredBuilding}}",
           "UnlockCondition": null,
           "AlternatePurchaseTypes": [
             {

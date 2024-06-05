@@ -20,7 +20,7 @@
           "ShopDisplayName": null,
           "ShopDescription": null,
           "ShopMissingBuildingDescription": null,
-          "RequiredBuilding": null,
+          "RequiredBuilding": "{{PokemonOttersRequiredBuilding}}",
           "UnlockCondition": null,
           "AlternatePurchaseTypes": null,
           "EggItemIds": null,

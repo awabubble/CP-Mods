@@ -2,6 +2,11 @@
   "Format": "2.0.0",
 
   "ConfigSchema": {
+    "PokemonOttersRequiredBuilding": {
+      "AllowValues": "Barn, Big Barn, Deluxe Barn",
+      "Default": "Big Barn",
+      "Section": "BalancingScaling"
+    },
     "DeluxeProduceDewott": {
       "AllowValues": "true, false",
       "Default": "true",
