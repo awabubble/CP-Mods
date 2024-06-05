@@ -150,8 +150,38 @@
         }
       },
       "When": {
-				"DeluxeProduceDewott": true
-			}
+        "DeluxeProduceDewott": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "TargetField": ["{{ModId}}.Dewott", "ProduceItemIds"],
+      "Entries": {
+        "{{ModId}}.Shellder": {
+          "Condition": "RANDOM 0.8",
+          "MinimumFriendship": 300,
+          "ItemId": "otohime.pokemonfish_Shellder" 
+        }
+      },
+      "When": {
+        "HasMod": "otohime.pokemonfish"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "TargetField": ["{{ModId}}.Dewott", "ProduceItemIds"],
+      "Entries": {
+        "{{ModId}}.Clamperl": {
+          "Condition": "RANDOM 0.6",
+          "MinimumFriendship": 600,
+          "ItemId": "otohime.pokemonfish_Clamperl" 
+        }
+      },
+      "When": {
+        "HasMod": "otohime.pokemonfish"
+      }
     }
   ]
 }

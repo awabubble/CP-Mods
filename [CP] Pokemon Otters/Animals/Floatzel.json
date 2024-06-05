@@ -152,6 +152,36 @@
       "When": {
 				"DeluxeProduceFloatzel": true
 			}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "TargetField": ["{{ModId}}.Floatzel", "ProduceItemIds"],
+      "Entries": {
+        "{{ModId}}.Poliwag": {
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "otohime.pokemonfish_Poliwag" 
+        }
+      },
+      "When": {
+        "HasMod": "otohime.pokemonfish"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "TargetField": ["{{ModId}}.Floatzel", "ProduceItemIds"],
+      "Entries": {
+        "{{ModId}}.Barboach": {
+          "Condition": "RANDOM 0.8",
+          "MinimumFriendship": 200,
+          "ItemId": "otohime.pokemonfish_Barboach" 
+        }
+      },
+      "When": {
+        "HasMod": "otohime.pokemonfish"
+      }
     }
   ]
 }
