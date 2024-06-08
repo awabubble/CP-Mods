@@ -1,0 +1,22 @@
+{
+    // Animals
+    "Animal.PrismaticDinosaur.Name": "Prismatic Dinosaur",
+    "Animal.PrismaticDinosaur.HatchText": "A new baby prismatic ...lizard?... hatched.",
+
+    // Objects
+    "Egg.Prismatic.Name": "Prismatic Dinosaur Egg",
+    "Egg.Prismatic.Description": "A giant prismatic dino egg... how is it still intact!?",
+    "Mayonnaise.Prismatic.Name": "Prismatic Dinosaur Mayonnaise",
+    "Mayonnaise.Prismatic.Description": "A huge, thick jar of creamy prismatic mayonnaise.",
+
+    // Clothing
+    "Pants.PrismaticDinosaur.Name": "Prismatic Dinosaur Pants",
+    "Pants.PrismaticDinosaur.Description": "These pants shimmering with prismatic energy were thought to have gone extinct a long time ago!",
+    "Hat.PrismaticDinosaur.Name": "Prismatic Dinosaur Hat",
+    "Hat.PrismaticDinosaur.Description": "A hat fashioned to look like a small, prismatic dinosaur.",
+
+    // Config
+    "config.section.BalancingScaling.name": "Balancing",
+    "config.PrismaticDinosaurEggArtifactSpotChance.name": "Prismatic Dinosaur Egg Artifact Spot Chance",
+    "config.PrismaticDinosaurEggArtifactSpotChance.description": "The chance that a Prismatic Dinosaur Egg can be found by digging artifact spots in the Desert. \nAccepted values: 1 - 100. Default: 1%"
+}

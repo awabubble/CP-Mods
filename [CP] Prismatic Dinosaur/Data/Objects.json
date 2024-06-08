@@ -1,0 +1,51 @@
+{
+  "Changes": [
+    {     
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}.PrismaticDinosaurEgg": {
+          "Name": "{{ModId}}.PrismaticDinosaurEgg",
+          "Displayname": "{{i18n: Egg.Prismatic.Name}}",
+          "Description": "{{i18n: Egg.Prismatic.Description}}",
+          "Type": "Arch",
+          "Category": -5,
+          "Price": 500,
+          "Texture": "{{ModId}}/PrismaticDinosaurEgg",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ArtifactSpotChances": { "Desert": "{{PrismaticDinosaurEggArtifactSpotChanceChoice}}" },
+          "ContextTags": [
+            "color_prismatic", 
+            "dinosaur_item",
+            "egg_item"
+          ],
+          "CustomFields": {
+            "JollyLlama.PrismaticValleyFramework/IsPrismatic": true
+          }
+        },
+        "{{ModId}}.PrismaticDinosaurMayonnaise": {
+          "Name": "{{ModId}}.PrismaticDinosaurMayonnaise",
+          "DisplayName": "{{i18n: Mayonnaise.Prismatic.Name}}",
+          "Description": "{{i18n: Mayonnaise.Prismatic.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1750,
+          "Texture": "{{ModId}}/PrismaticDinosaurMayonnaise",
+          "SpriteIndex": 0,
+          "Edibility": 100,
+          "IsDrink": true,
+          "ContextTags": [
+            "color_prismatic",
+            "dinosaur_item",
+            "mayo_item"
+          ],
+          "CustomFields": {
+            "JollyLlama.PrismaticValleyFramework/IsPrismatic": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Format": "2.0.0",
+
+  "ConfigSchema": {
+    "PrismaticDinosaurEggArtifactSpotChance": {
+      "Default": "1",
+      "Section": "BalancingScaling"
+    }
+  },
+
+  "DynamicTokens": [
+    {
+      "Name": "PrismaticDinosaurEggArtifactSpotChanceChoice",
+      "Value": "0.01"
+    },
+    {
+      "Name": "PrismaticDinosaurEggArtifactSpotChanceChoice",
+      "Value": "{{query: {{PrismaticDinosaurEggArtifactSpotChance}} / 100 }}",
+      "When": {
+        "PrismaticDinosaurEggArtifactSpotChance": "{{Range: 1, 100}}"
+      }
+    }
+  ],
+
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/PrismaticDinosaur, {{ModId}}/PrismaticDinosaurEgg, {{ModId}}/PrismaticDinosaurMayonnaise, {{ModId}}/DinoPants, {{ModId}}/DinoHat",
+      "FromFile": "Assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Machines.json, Data/Objects.json, Data/PrismaticDinosaur.json, Data/Tailoring.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Prismatic Dinosaur",
+  "Author": "JollyLlama",
+  "Description": "Adds a prismatic dinosaur along with matching prismatic dinosaur pants and dinosaur cap",
+  "Version": "1.0.0",
+  "UniqueID": "JollyLlama.PrismaticDinosaur",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": []
+}

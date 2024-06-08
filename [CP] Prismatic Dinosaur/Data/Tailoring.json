@@ -1,0 +1,62 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Pants",
+      "Entries": {
+        "{{ModId}}.PrismaticDinosaurPants": {
+          "Name": "{{ModId}}.PrismaticDinosaurPants",
+          "DisplayName": "{{i18n: Pants.PrismaticDinosaur.Name}}",
+          "Description": "{{i18n: Pants.PrismaticDinosaur.Description}}",
+          "Price": 50,
+          "Texture": "{{ModId}}/DinoPants",
+          "SpriteIndex": 0,
+          "DefaultColor": "255 235 203",
+          "CanBeDyed": false,
+          "IsPrismatic": true,
+          "CanChooseDuringCharacterCustomization": false,
+          "CustomFields": null              
+        }
+      }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/Hats",
+        "Entries": {
+          "{{ModId}}.PrismaticDinosaurHat": "{{ModId}}.PrismaticDinosaurHat/{{i18n: Hat.PrismaticDinosaur.Description}}/false/true/Prismatic/{{i18n: Hat.PrismaticDinosaur.Name}}/0/{{ModId}}\\DinoHat"
+        }
+      },
+    {
+      "Action": "EditData",
+      "Target": "Data/TailoringRecipes",
+      "Entries": {
+        "{{ModId}}.PrismaticDinosaurPants": {
+          "FirstItemTags": [
+            "item_cloth"
+          ],
+          "SecondItemTags": [
+            "item_{{Lowercase:{{ModId}}.PrismaticDinosaurMayonnaise}}"
+          ],
+          "SpendRightItem": true,
+          "CraftedItemId": "{{ModId}}.PrismaticDinosaurPants",
+          "CraftedItemIds": null,
+          "CraftedItemIdFeminine": null,
+          "Id": "{{ModId}}.PrismaticDinosaurPants"
+        },
+        "{{ModId}}.PrismaticDinosaurHat": {
+            "FirstItemTags": [
+              "item_cloth"
+            ],
+            "SecondItemTags": [
+              "item_{{Lowercase:{{ModId}}.PrismaticDinosaurEgg}}"
+            ],
+            "SpendRightItem": true,
+            "CraftedItemId": "{{ModId}}.PrismaticDinosaurHat",
+            "CraftedItemIds": null,
+            "CraftedItemIdFeminine": null,
+            "Id": "{{ModId}}.PrismaticDinosaurHat"
+          }
+      }
+    }
+  ]
+}
