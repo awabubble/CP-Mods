@@ -22,7 +22,7 @@
             "egg_item"
           ],
           "CustomFields": {
-            "JollyLlama.PrismaticValleyFramework/IsPrismatic": true
+            "JollyLlama.PrismaticValleyFramework/Color": "Prismatic"
           }
         },
         "{{ModId}}.PrismaticDinosaurMayonnaise": {
@@ -42,7 +42,7 @@
             "mayo_item"
           ],
           "CustomFields": {
-            "JollyLlama.PrismaticValleyFramework/IsPrismatic": true
+            "JollyLlama.PrismaticValleyFramework/Color": "Prismatic"
           }
         }
       }

@@ -86,7 +86,7 @@
           "StatToIncrementOnProduce": null,
           "ShowInSummitCredits": true,
           "CustomFields": {
-            "JollyLlama.PrismaticValleyFramework/IsPrismatic": true
+            "JollyLlama.PrismaticValleyFramework/Color": "Prismatic"
           }
         }
       }
