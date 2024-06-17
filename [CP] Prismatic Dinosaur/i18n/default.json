@@ -15,6 +15,9 @@
     "Hat.PrismaticDinosaur.Name": "Prismatic Dinosaur Hat",
     "Hat.PrismaticDinosaur.Description": "A hat fashioned to look like a small, prismatic dinosaur.",
 
+    // Monsters
+    "Monsters.PrismaticPepperRex.Name": "Prismatic Pepper Rex",
+
     // Config
     "config.section.BalancingScaling.name": "Balancing",
     "config.PrismaticDinosaurEggArtifactSpotChance.name": "Prismatic Dinosaur Egg Artifact Spot Chance",

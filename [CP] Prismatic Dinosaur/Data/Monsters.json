@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Monsters",
+      "Entries": {
+        "{{ModId}}.Prismatic Pepper Rex": "300/15/0/0/false/1000/80 0/5/.01/3/2/.0/true/7/{{i18n: Monsters.PrismaticPepperRex.Name}}"
+      }
+    }
+  ]
+}

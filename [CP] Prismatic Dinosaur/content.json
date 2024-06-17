@@ -29,8 +29,13 @@
       "FromFile": "Assets/{{TargetWithoutPath}}.png"
     },
     {
+      "Action": "Load",
+      "Target": "Characters/Monsters/JollyLlama.PrismaticDinosaur.Prismatic Pepper Rex",
+      "FromFile": "Assets/JollyLlama.PrismaticDinosaur.Prismatic Pepper Rex.png"
+    },
+    {
       "Action": "Include",
-      "FromFile": "Data/Machines.json, Data/Objects.json, Data/PrismaticDinosaur.json, Data/Tailoring.json"
+      "FromFile": "Data/Machines.json, Data/Objects.json, Data/PrismaticDinosaur.json, Data/Tailoring.json, Data/Monsters.json"
     }
   ]
 }
