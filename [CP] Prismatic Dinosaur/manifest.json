@@ -7,5 +7,5 @@
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },
-  "UpdateKeys": []
+  "UpdateKeys": [ "GitHub:Jolly-Alpaca/PrismaticDinosaur", "Nexus:25342" ]
 }
