@@ -6,7 +6,7 @@
       "Entries": {
         "{{ModId}}.Dewott": {
           "DisplayName": "{{i18n: Animal.Dewott.Name}}",
-          "House": "Barn",
+          "House": "{{PokemonOttersHouse}}",
           "Gender": "MaleOrFemale",
           "PurchasePrice": 4000,
           "SellPrice": 8000,
@@ -20,7 +20,7 @@
           "ShopDisplayName": "Dewott",
           "ShopDescription": "{{i18n: Animal.Dewott.Description}}",
           "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
-          "RequiredBuilding": "{{PokemonOttersRequiredBuilding}}",
+          "RequiredBuilding": "{{PokemonOttersBuilding}}",
           "UnlockCondition": null,
           "AlternatePurchaseTypes": [
             {
@@ -167,7 +167,8 @@
         }
       },
       "When": {
-        "HasMod": "otohime.pokemonfish"
+        "HasMod": "otohime.pokemonfish",
+        "UsePokemonFish": true
       }
     },
     {
@@ -183,7 +184,8 @@
         }
       },
       "When": {
-        "HasMod": "otohime.pokemonfish"
+        "HasMod": "otohime.pokemonfish",
+        "UsePokemonFish": true
       }
     }
   ]

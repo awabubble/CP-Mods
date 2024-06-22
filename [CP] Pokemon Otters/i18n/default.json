@@ -19,5 +19,10 @@
     "config.DeluxeProduceFloatzel.name": "Floatzel Deluxe Produce",
     "config.DeluxeProduceFloatzel.description": "Allow Buizel and Floatzel to find Rock Candy as deluxe produce.\nDefault: true",
     "config.DeluxeProduceProbability.name": "Deluxe Produce Probability",
-    "config.DeluxeProduceProbability.description": "The percent probability of producing a deluxe produce item at max friendship and max happiness.\nAccepted values: 1 - 100. Default: 1%"
+    "config.DeluxeProduceProbability.description": "The percent probability of producing a deluxe produce item at max friendship and max happiness.\nAccepted values: 1 - 100. Default: 1%",
+    "config.section.ModIntegration.name": "Optional Mod Integration",
+    "config.UsePokemonFish.name": "Pokemon Fish",
+    "config.UsePokemonFish.description": "Allow the Pokemon otters to bring back Pokemon Fish. Requires otohimexoxo's Pokemon Fish mod.\nDefault: true",
+    "config.UsePokemonRanchBarn.name": "Pokemon Ranch Barn",
+    "config.UsePokemonRanchBarn.description": "Changes the Pokemon otter's required building to the Pokemon Ranch Pokemon Barn.\nUses the Required Building setting to determine the level of Pokemon Barn.\nRequires plaidbees's Pokemon Ranch mod.\nDefault: false"
 }

@@ -6,7 +6,7 @@
       "Entries": {
         "{{ModId}}.ShinyFloatzel": {
           "DisplayName": "={{i18n: Animal.Floatzel.Name}}",
-          "House": "Barn",
+          "House": "{{PokemonOttersHouse}}",
           "Gender": "MaleOrFemale",
           "ShopTexture": null,
           "ShopSourceRect": {
@@ -18,7 +18,7 @@
           "ShopDisplayName": null,
           "ShopDescription": null,
           "ShopMissingBuildingDescription": null,
-          "RequiredBuilding": "{{PokemonOttersRequiredBuilding}}",
+          "RequiredBuilding": "{{PokemonOttersBuilding}}",
           "UnlockCondition": null,
           "AlternatePurchaseTypes": null,
           "EggItemIds": null,
@@ -148,7 +148,8 @@
         }
       },
       "When": {
-        "HasMod": "otohime.pokemonfish"
+        "HasMod": "otohime.pokemonfish",
+        "UsePokemonFish": true
       }
     },
     {
@@ -164,7 +165,8 @@
         }
       },
       "When": {
-        "HasMod": "otohime.pokemonfish"
+        "HasMod": "otohime.pokemonfish",
+        "UsePokemonFish": true
       }
     }
   ]

@@ -20,6 +20,16 @@
     "DeluxeProduceProbability": {
       "Default": "1",
       "Section": "BalancingScaling"
+    },
+    "UsePokemonFish": {
+      "AllowValues":"true, false",
+      "Default": "true",
+      "Section": "ModIntegration"
+    },
+    "UsePokemonRanchBarn": {
+      "AllowValues":"true, false",
+      "Default": "false",
+      "Section": "ModIntegration"
     }
   },
 
@@ -38,6 +48,49 @@
     {
       "Name": "DeluxeProduceCareDivisorChoice",
       "Value": "{{Round: {{query: 1382.5 / {{DeluxeProduceCareValidate}} * 100 }}, 0, down }}"
+    },
+    {
+      "Name": "PokemonOttersBuilding",
+      "Value": "{{PokemonOttersRequiredBuilding}}"
+    },
+    {
+      "Name": "PokemonOttersBuilding",
+      "Value": "PokeBarn",
+      "When": {
+        "HasMod": "plaidbees.pokeranch",
+        "UsePokemonRanchBarn": true,
+        "PokemonOttersRequiredBuilding": "Barn"
+      }
+    },
+    {
+      "Name": "PokemonOttersBuilding",
+      "Value": "BigPokeBarn",
+      "When": {
+        "HasMod": "plaidbees.pokeranch",
+        "UsePokemonRanchBarn": true,
+        "PokemonOttersRequiredBuilding": "Big Barn"
+      }
+    },
+    {
+      "Name": "PokemonOttersBuilding",
+      "Value": "DeluxePokeBarn",
+      "When": {
+        "HasMod": "plaidbees.pokeranch",
+        "UsePokemonRanchBarn": true,
+        "PokemonOttersRequiredBuilding": "Deluxe Barn"
+      }
+    },
+    {
+      "Name": "PokemonOttersHouse",
+      "Value": "Barn"
+    },
+    {
+      "Name": "PokemonOttersHouse",
+      "Value": "PokeBarn",
+      "When": {
+        "HasMod": "plaidbees.pokeranch",
+        "UsePokemonRanchBarn": true
+      }
     }
   ],
 
