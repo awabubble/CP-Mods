@@ -1,0 +1,25 @@
+{
+    // Animals
+    "Animal.PrismaticDinosaur.Name": "Dinosaure Prismatique",
+    "Animal.PrismaticDinosaur.HatchText": "Un nouveau bébé prismatique... lézard ?... éclos.",
+
+    // Objects
+    "Egg.Prismatic.Name": "Oeuf de dinosaure prismatique",
+    "Egg.Prismatic.Description": "Un œuf de dinosaure prismatique géant... comment est-il encore intact !?",
+    "Mayonnaise.Prismatic.Name": "Mayonnaise prismatique de dinosaure",
+    "Mayonnaise.Prismatic.Description": "Un énorme et épais pot de mayonnaise prismatique crémeuse.",
+
+    // Clothing
+    "Pants.PrismaticDinosaur.Name": "Pantalon dinosaure prismatique",
+    "Pants.PrismaticDinosaur.Description": "On pensait que ces pantalons scintillants d'énergie prismatique avaient disparu depuis longtemps!",
+    "Hat.PrismaticDinosaur.Name": "Chapeau de dinosaure prismatique",
+    "Hat.PrismaticDinosaur.Description": "Un chapeau conçu pour ressembler à un petit dinosaure prismatique.",
+
+    // Monsters
+    "Monsters.PrismaticPepperRex.Name": "Prismatic Pepper Rex",
+
+    // Config
+    "config.section.BalancingScaling.name": "Equilibrage",
+    "config.PrismaticDinosaurEggArtifactSpotChance.name": "Chance d'obtenir un œuf de dinosaure prismatique",
+    "config.PrismaticDinosaurEggArtifactSpotChance.description": "La chance qu'un œuf de dinosaure prismatique puisse être trouvé en creusant des emplacements d'artefacts dans le désert. \nValeurs tolérées: 1 - 100. Default: 1%"
+}
