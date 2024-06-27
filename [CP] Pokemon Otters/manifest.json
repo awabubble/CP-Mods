@@ -2,7 +2,7 @@
   "Name": "[CP] Pokemon Otters",
   "Author": "JollyLlama",
   "Description": "Adds pokemon otters as barn animals",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "UniqueID": "JollyLlama.PokeOtterBarnAnimal",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"

@@ -130,7 +130,7 @@
           "Id": "{{ModId}}.PrismaticShard",
           "Condition": null,
           "MinimumFriendship": 900,
-          "ItemId": "074" 
+          "ItemId": "74" 
         }
       },
       "When": {
