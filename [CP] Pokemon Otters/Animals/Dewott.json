@@ -17,7 +17,7 @@
             "Width": 32,
             "Height": 16
           },
-          "ShopDisplayName": "Dewott",
+          "ShopDisplayName": "{{i18n: Animal.Dewott.Name}}",
           "ShopDescription": "{{i18n: Animal.Dewott.Description}}",
           "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
           "RequiredBuilding": "{{PokemonOttersBuilding}}",
